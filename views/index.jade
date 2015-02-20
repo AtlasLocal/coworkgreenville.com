@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h3 Welcome to roots!
+  :markdown
+    Find tutorials and documentation at http://roots.cx : )
+
+  //- A silly example of consuming data from prismic.io here..
+  ul
+    for product in records.products
+      li
+        h4= product.data.product.name.value[0].text
+        img(src=product.data.product.image.value.views.icon.url)
