@@ -44,11 +44,11 @@ Install roots:
 
 Clone this repo:
 
-    git clone git@github.com:cowork/roots-manuva.git
+    git clone git@github.com:cowork/coworkgreenville.com.git
 
 Install dependencies:
 
-    cd roots-manuva
+    cd coworkgreenville.com
     npm install
 
 Launch dev server:
